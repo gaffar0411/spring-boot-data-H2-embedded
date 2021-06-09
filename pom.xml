@@ -23,9 +23,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:gaffar0411/spring-boot-data-H2-embedded.git</connection>
-		<url>scm:git:git@github.com:gaffar0411/spring-boot-data-H2-embedded.git</url>
-		<developerConnection>scm:git:git@github.com:gaffar0411/spring-boot-data-H2-embedded.git</developerConnection>
+		<connection>scm:git:git@github.km.spaceforce.mil:shredder/spring-boot-data-h2.git</connection>
+		<url>scm:git:git@github.km.spaceforce.mil:shredder/spring-boot-data-h2.git</url>
+		<developerConnection>scm:git:git@github.km.spaceforce.mil:shredder/spring-boot-data-h2.git</developerConnection>
 	</scm>
 
 	<dependencies>
