@@ -3,18 +3,18 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>com.iamvickyav.springboot</groupId>
-	<artifactId>SpringBootRestWithH2</artifactId>
+	<groupId>com.toolChain.springboot</groupId>
+	<artifactId>RestWithH2</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>SpringBootRestWithH2</name>
+	<name>RestWithH2</name>
 	<description>Application to demonstrate usage of H2 DB with SpringBoot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.4.RELEASE</version>
+		<version>2.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 
@@ -23,9 +23,9 @@
 	</properties>
 
 	<scm>
-		<connection>scm:git:git@github.com:iamvickyav/spring-boot-data-H2-embedded.git</connection>
-		<url>scm:git:git@github.com:iamvickyav/spring-boot-data-H2-embedded.git</url>
-		<developerConnection>scm:git:git@github.com:iamvickyav/spring-boot-data-H2-embedded.git</developerConnection>
+		<connection>scm:git:git@github.com:gaffar0411/spring-boot-data-H2-embedded.git</connection>
+		<url>scm:git:git@github.com:gaffar0411/spring-boot-data-H2-embedded.git</url>
+		<developerConnection>scm:git:git@github.com:gaffar0411/spring-boot-data-H2-embedded.git</developerConnection>
 	</scm>
 
 	<dependencies>
@@ -61,17 +61,17 @@
 		<!-- Junit 5 -->
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
-			<artifactId>junit-jupiter-api</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter-engine</artifactId>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.junit.platform</groupId>
 			<artifactId>junit-platform-launcher</artifactId>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.junit.jupiter</groupId>
+			<artifactId>junit-jupiter-api</artifactId>
 			<scope>test</scope>
 		</dependency>
 

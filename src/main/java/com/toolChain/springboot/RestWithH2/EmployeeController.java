@@ -1,7 +1,7 @@
-package com.iamvickyav.springboot.SpringBootRestWithH2;
+package com.toolChain.springboot.RestWithH2;
 
-import com.iamvickyav.springboot.SpringBootRestWithH2.model.Employee;
-import com.iamvickyav.springboot.SpringBootRestWithH2.service.EmployeeService;
+import com.toolChain.springboot.RestWithH2.model.Employee;
+import com.toolChain.springboot.RestWithH2.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
